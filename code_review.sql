@@ -25,3 +25,10 @@ SELECT COUNT(is_trans) FROM colors WHERE is_trans = 1;
 SELECT SUM(num_parts) FROM sets WHERE year >= 2000;
 SELECT AVG(num_parts) FROM sets WHERE year >= 2000;
 SELECT theme_id, AVG(num_parts) FROM sets GROUP BY theme_id;
+
+-- Joins
+SELECT *
+FROM parts
+INNER JOIN part_categories AS pc
+ON part_cat_id = pc.id
+WHERE parts.name LIKE '%Werewolf%';
