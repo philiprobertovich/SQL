@@ -2,7 +2,7 @@
 
 ### By Philip Kendall
 
-#### This project utilizes MariaDB(MySQL) to perform various tasks on a lego database
+#### This project utilizes SQL to perform various tasks on a lego database based on MariaDB(MySQL)
 
 ## Technologies Used
 
